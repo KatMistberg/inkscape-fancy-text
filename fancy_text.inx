@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>Fancy Text</_name>
+    <id>org.inkscape.fancy_text</id>
+<!--    <dependency type="executable" location="extensions">fancy_text.py</dependency>-->
+
+    <param name="tab" type="notebook">
+        <page name="hi" _gui-text="Hi">
+            <param name="a" type="int" min="0" max="10" _gui-text="Number">2</param>
+        </page>
+    </param>
+
+    <effect>
+        <object-type>all</object-type>
+        <effects-menu>
+			<submenu _name="Text"/>
+        </effects-menu>
+    </effect>
+
+<!--    <script>-->
+<!--        <command location="inx" interpreter="python">fancy_text.py</command>-->
+<!--    </script>-->
+</inkscape-extension>
